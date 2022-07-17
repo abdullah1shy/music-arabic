@@ -1,37 +1,33 @@
 {
-    "name": "VideoStream",
-    "description": ".هنا حط اسم لبوت يفضل بالانجليزية ",
+    "name": "سورس عبيد",
+    "description": "تشغيل اغاني وفيديو بالمكالمة.",
     "keywords": ["bot", "telegram"],
     "repository": "https://github.com/galihmrd/Group-calls-video",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
-            "description": "هنا حط كود بايروكرام سيشن (P)",
+            "description": "(مطلوب) حط هنا كود بـايـرو كرام اذهب للموقع واختار حرف (P)",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "حط هنا توكن البوت تحصلة من @BotFather",
+            "description": "تـوكن البـوت تحصلة من @BotFather",
             "required": true
         },
         "API_ID": {
-            "description": "الايـبـي أيـدي من my.telegram.org",
+            "description": "ايـبي أيدي  تحصلة من my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "ايــبـي هــاش my.telegram.org",
+            "description": "ايـبٓـي هاش تحصلة من my.telegram.org",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "حط هنا ايديك",
+            "description": "حط هنا معرفك (مطلوب) ",
             "required": true
         },
         "BOTLOG_CHATID": {
-            "description": "حط هنا معرف قناتك (صعد البوت ادمن) ",
+            "description": "ID logs group or channel",
             "required": true
-        },
-        "REST_API": {
-            "description": "عوفهة",
-            "required": false
         }
     },
     "buildpacks": [
